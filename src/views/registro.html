@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -12,13 +13,31 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-    <title>Administrador</title>
+    <title>Registro</title>
   </head>
   <body>
-
-<button id="sendRegister" class="btn btn-light"></button>
-      <P>REGISTROS</P>
-    <div id="seccionRegistros">  
+ <div class="formulario">
+          <!--formulario registro-->
+   <form id="form-formulario">
+    <!--agrega foto del visitante-->
+    <p> Foto:</p>
+     <input type="text" class="form-control" id="fotoVisitante" placeholder=""></div>
+    <!--agrega input nombre del visitante-->
+    <p> Nombre:</p>
+     <input type="text" class="form-control" id="nombreVisitante" placeholder="">
+     <p> Procedencia:</p>
+    <input type="text" class="form-control" id="procedenciaVisitante" placeholder="">
+    <!--agrega selector persona a la que visita-->
+   <p>Persona que visita:</p>
+    <select id="selectorPersona" class="form-control">
+      <option value="persona1">Persona1</option>
+      <option value="persona2">Persona2</option>
+      <option value="persona3">Persona3</option>
+      <option value="persona4">Persona4</option>
+      <option value="persona5">Persona5</option>
+    </select>
+</form>
+<button id="sendRegister" class="btn btn-primary">Registrar visita</button>
 </div>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -26,8 +45,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  
     <script src="registro.js"></script>
-    
   </body>
 </html>
