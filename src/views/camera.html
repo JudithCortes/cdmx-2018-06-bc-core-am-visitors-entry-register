@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Access to a camera</title>
+    <link href="../style/main.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- <img id="frame"> -->
+    <video class="shoot" id="player" controls autoplay></video>
+    <button id="capture">Capturar</button>
+    <canvas class="shoot" id="snapshot"></canvas>
+    <img id="img-type" src="">
+    <!--Link to script-->
+    <script src="../js/camera.js"></script>
+    <!--firebase-->
+    <script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyCrpoz-Y3Cg_dpMHqOFqthXgohhNqbC6PM",
+            authDomain: "register-visits.firebaseapp.com",
+            databaseURL: "https://register-visits.firebaseio.com",
+            projectId: "register-visits",
+            storageBucket: "register-visits.appspot.com",
+            messagingSenderId: "726100375938"
+        };
+        firebase.initializeApp(config);
+    </script>
+
+
+</body>
+
+</html>
