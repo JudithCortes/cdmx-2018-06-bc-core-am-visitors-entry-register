@@ -2,7 +2,6 @@ const admin = document.getElementById('nombre-admin');
 const password = document.getElementById('password');
 const adminView = document.getElementById('login-section');
 const logIn = document.getElementById('log-in');
-const administrador = document.getElementById('admin');
 const logButton = document.getElementById('btn-log');
 const welcomeAdmin = documen.getElementById('welcome-admin');
 
