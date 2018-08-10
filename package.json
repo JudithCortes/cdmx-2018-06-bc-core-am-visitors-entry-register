@@ -1,0 +1,28 @@
+{
+  "name": "registro-de-visitantes",
+  "version": "1.0.0",
+  "description": "Web app para registrar visitantes a un co-working ",
+  "main": "index.html",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VaniushaR/cdmx-2018-06-bc-core-am-visitors-entry-register.git"
+  },
+  "keywords": [
+    "visitors-register",
+    "entry",
+    "reception",
+    "registration"
+  ],
+  "author": "Vania Ramírez, Judith Cortés y Sandra Salinas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VaniushaR/cdmx-2018-06-bc-core-am-visitors-entry-register/issues"
+  },
+  "homepage": "https://github.com/VaniushaR/cdmx-2018-06-bc-core-am-visitors-entry-register#readme"
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Materialize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <!--Materialize icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Css Style-->
+    <link href="../style/main.css" rel="stylesheet">
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <!--Title-->
+    <title>Access to a camera</title>
+</head>
+
+<body class="container">
+    <!-- <img id="frame"> -->
+    <video class="shoot" id="player" controls autoplay></video>
+    <button id="capture" class="waves-effect btn-color btn-large">Capturar</button>
+    <canvas class="shoot" id="snapshot"></canvas>
+    <!-- <img id="img-type" src=""> -->
+
+    <button id="enviar-datos" class="waves-effect btn-color btn-large">Registrar</button>
+    <!--firebase-->
+    <script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyCrpoz-Y3Cg_dpMHqOFqthXgohhNqbC6PM",
+            authDomain: "register-visits.firebaseapp.com",
+            databaseURL: "https://register-visits.firebaseio.com",
+            projectId: "register-visits",
+            storageBucket: "register-visits.appspot.com",
+            messagingSenderId: "726100375938"
+        };
+        firebase.initializeApp(config);
+    </script>
+    <!--Materialize min js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    <!--JQuery para menú desplegable-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"> 
+    </script>
+    <!--Script JS Link-->
+    <script src="../js/camera.js"></script>
+
+</body>
+
+</html>
