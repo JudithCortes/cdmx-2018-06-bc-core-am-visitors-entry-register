@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- firestore-->
+    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase-firestore.js"></script>
+
+    <!-- Materialize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <!--Materialize icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <!--Css Style-->
+    <link href="../style/main.css" rel="stylesheet">
+    <title>Registro</title>
+</head>
+
+<body class="container">
+    <div class="formulario">
+        <!--formulario registro-->
+        <form id="form-formulario">
+            <!--agrega foto del visitante-->
+            <!--agrega input nombre del visitante-->
+            <p> Nombre:</p>
+            <input type="text" class="form-control" id="nombreVisitante" placeholder="">
+            <p> Email:</p>
+            <input type="text" class="form-control" id="emailVisitante" placeholder="">
+            <!--agrega selector persona a la que visita-->
+            <p>Empresa que visita:</p>
+            <select id="selectorPersona" class="form-control browser-default">
+                <option value="persona1">BACKYARD</option>
+                <option value="persona1">BAF CONSULTING</option>
+                <option value="persona2">CORREDURÍA 35</option>
+                <option value="persona1">CULTURA DH</option>
+                <option value="persona1">GALLO DESIGN</option>
+                <option value="persona1">GRAHAM ABOGADOS</option>
+                <option value="persona1">MINDWAY</option>
+                <option value="persona1">IN STYLE</option>
+                <option value="persona1">LABORATORIA</option>
+                <option value="persona3">LEGION BRAND</option>
+                <option value="persona4">MANAGERS ANONIMOS</option>
+                <option value="persona1">MEDICONECTA</option>
+                <option value="persona5">MERCARTE</option>
+                <option value="persona1">MESSEBAU</option>
+                <option value="persona1">PÉREZ REYES Y ASOCIADOS</option>
+                <option value="persona1">PIXI</option>
+                <option value="persona1">RABBIT HOUSE</option>
+                <option value="persona1">SVX</option>
+                <option value="persona1">TES AMÉRICA</option>
+                <option value="persona1">TIERRA CAPITAL</option>
+                <option value="persona1">TRIPLE JUMP</option>
+                <option value="persona1">UPSOCL</option>
+                <option value="persona1">VIA DIRECT</option>
+                <option value="persona1">YOUR PAY CHOICE</option>
+                <option value="persona1">ZOOMIN TV</option>
+            </select>
+        </form>
+        <button id="sendRegister" class="waves-effect btn-color btn-large">Siguiente</button>
+    </div>
+    <!--Materialize min js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    <!--JQuery para menú desplegable-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"> 
+    </script>
+    <!--Script JS Link-->
+    <script src="../js/registro.js"></script>
+
+</body>
+
+</html>

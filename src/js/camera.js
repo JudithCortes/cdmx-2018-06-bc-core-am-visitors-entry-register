@@ -3,6 +3,7 @@ var snapshotCanvas = document.getElementById('snapshot');
 var captureButton = document.getElementById('capture');
 var canvasToPng = document.getElementById('img-type');
 var videoTracks;
+const registrar = document.getElementById('enviar-datos');
 
 var handleSuccess = function(stream) {
   // Attach the video stream to the video element and autoplay.
@@ -24,6 +25,14 @@ captureButton.addEventListener('click', function() {
   console.log(datos);
   //enviar la img en base 64 a Fibrebase, usar la función que transformará la base 64 a una png visible
 
+  let refImg = firebase.storage().ref();
+
+  //upload
+  let uploadImg = refImg.child('images/prueba.png');
+  uploadImg.putString(datos, 'data_url').then(function(snapshot) {
+    console.log('uploaded');
+  });
+
   // Stop all video streams.
   videoTracks.forEach(function(track) {
     track.stop();
@@ -31,3 +40,7 @@ captureButton.addEventListener('click', function() {
 });
 
 navigator.mediaDevices.getUserMedia({ video: true }).then(handleSuccess);
+
+registrar.addEventListener('click', e => {
+  location.href = '../views/credencial.html';
+});

@@ -1,4 +1,23 @@
 .shoot {
   width: 100%;
   height: 100%;
+  border-radius: 100%;
+}
+.container {
+  font-family: 'Roboto', sans-serif;
+  padding: 10%;
+}
+.bloque {
+  text-align: center;
+  align-content: center;
+  padding: 10%;
+}
+
+.btn-color {
+  background-color: #27318f;
+}
+
+h1 {
+  font-family: 'roboto', bold;
+  font-size: 400%;
 }
