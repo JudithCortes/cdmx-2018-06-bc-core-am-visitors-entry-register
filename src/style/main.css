@@ -9,7 +9,7 @@
 .bloque1 {
   text-align: center;
   align-content: center;
-  padding: 20%;
+  padding: 10%;
   color: #3a3636e2;
   font-family: 'roboto', sans-serif;
 }
@@ -26,4 +26,7 @@
 h1 {
   font-family: 'roboto', bold;
   font-size: 500%;
+}
+.tabla {
+  background-color: aquamarine;
 }
