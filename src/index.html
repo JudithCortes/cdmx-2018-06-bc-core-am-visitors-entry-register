@@ -1,48 +1,49 @@
 <!doctype html>
-<html lang="en">
+<html lang='en'>
 
 <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
 
     <!-- firestore-->
-    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase-firestore.js"></script>
+    <script src='https://www.gstatic.com/firebasejs/4.12.1/firebase.js'></script>
+    <script src='https://www.gstatic.com/firebasejs/4.12.1/firebase-firestore.js'></script>
 
     <!-- Materialize CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css'>
     <!--Materialize icons-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/icon?family=Material+Icons' rel='stylesheet'>
+    
     <!--Fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
     <!--Css Style-->
-    <link href="style/main.css" rel="stylesheet">
+    <link href='style/style.css' rel='stylesheet'>
     <!--Title-->
     <title>Bienvenida</title>
 </head>
-
-<body class="container">
-    <section class="row bloque1">
-        <img src="assets/t1.png">
-        <h1>Bienvenidx</h1>
-    </section>
-    <div class="row bloque1">
-    <!--SE ELIMINÒ SELECTOR MOTIVO-->
-        <button id="entrar" class="btn-color btn-large">Entrar</button>
+<body>
+    <!--se crea contenedor-->
+    <div class='container'>
+        <section class='row bloque1'>
+            <img alt='' src='assets/t1.png'>
+            <h1>Bienvenidx</h1>
+        </section>
+        <div class='row bloque1'>
+            <button id='entrar' class='btn-large'>Registrarme</button>
+        </div>
     </div>
+<!--SE MODIFICA FOOTER CON IMAGEN-->
+    <footer class='footer-copyright bloque1'>
+        <a href='views/admin.html'><img alt='' src='assets/admin.png'></a>
 
-    <footer class="footer-copyright bloque1">
-        <a href="views/admin.html" id="admin">Administrador</a>
     </footer>
     <!--Materialize min js-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js'></script>
     <!--JQuery para menú desplegable-->
-    <script src="https://code.jquery.com/jquery-2.1.1.min.js"> 
+    <script src='https://code.jquery.com/jquery-2.1.1.min.js'> 
     </script>
     <!--Script JS Link-->
-    <script src="js/index.js"></script>
-
+    <script src='js/index.js'></script>
 </body>
-
 </html>
