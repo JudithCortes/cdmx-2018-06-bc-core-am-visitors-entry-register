@@ -365,29 +365,29 @@ así como la visualización de los visitantes por parte del administrador.
 
 ### Perfil de Usuario
 *__Martin Martinez__*
-#### EDAD: 27 Años
-#### Puesto: Diseñador Gráfico
-#### Intereses: Animación, Videojuegos, Películas de Terror
-> "When something is important enough, you do it even if the odds are not in your favor. -Elon Musk"
+>EDAD: 27 Años
+Puesto: Diseñador Gráfico
+Intereses: Animación, Videojuegos, Películas de Terror
+"When something is important enough, you do it even if the odds are not in your favor. -Elon Musk"
 
 *__Judith Castro__*
-#### EDAD: 31 Años
-#### Puesto: Fotografa
-#### Intereses: Coleccionar Viniles, Botánica, Cerveza Artesanal
-> "The future for me is already a thing of the past –
+>EDAD: 31 Años
+Puesto: Fotografa
+Intereses: Coleccionar Viniles, Botánica, Cerveza Artesanal
+"The future for me is already a thing of the past –
 You were my first love and you will be my last. -Bob Dylan"
 
 *__José Hernández__*
-#### EDAD: 38 Años
-#### Puesto: CEO
-#### Intereses: Salir a correr, Viajar, Jugar con su perro
-> “Man suffers only because he takes seriously what the gods made for fun. -Alan W. Watts”
+>EDAD: 38 Años
+Puesto: CEO
+Intereses: Salir a correr, Viajar, Jugar con su perro
+“Man suffers only because he takes seriously what the gods made for fun. -Alan W. Watts”
 
 *__Daniel Monroy__*
-#### EDAD: 22 Años
-#### Puesto: Estudiante/Practicante en Desarrollo de Software
-#### Intereses: Moda, Hornear, Arts & Crafts
-> “The most courageous act is still to think for yourself. Aloud. -Coco Chanel”
+>EDAD: 22 Años
+Puesto: Estudiante/Practicante en Desarrollo de Software
+Intereses: Moda, Hornear, Arts & Crafts
+“The most courageous act is still to think for yourself. Aloud. -Coco Chanel”
 
 ### Sketch 1
 ![SK1]('https://imgur.com/FpEzNOr')
