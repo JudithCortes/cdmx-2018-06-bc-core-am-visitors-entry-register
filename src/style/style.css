@@ -23,6 +23,7 @@ h1{
     width: 590px;
     font-size: 47px;
     margin-top: 110px;
+    border-radius: 25px;
 }
 
 .row{
@@ -32,8 +33,44 @@ h1{
 
 footer{
 	text-align: center;
-	margin-top: 16%;
+	margin-top: 10%;
 }
 .bloque1{
 	height: 200px;
+}
+.bloque2{
+	height: 45px;
+}
+
+#divbtn{
+	text-align: center;
+}
+
+.registro{
+	margin-top: 135px;
+}
+
+.formulario{
+	text-align: left;
+}
+#nombreVisitante{
+	font-size: 30px;
+}
+#emailVisitante{
+	font-size: 30px;
+}
+.form{
+	font-size: 25px;
+}
+.sel{
+	font-size: 15px;
+}
+#anfitrion{
+	display: block;
+}
+.boton1{
+	border-radius: 25px;
+	height: 80px;
+    width: 385px;
+    font-size: 35px;
 }
