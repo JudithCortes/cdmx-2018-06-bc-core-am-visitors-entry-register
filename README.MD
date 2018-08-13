@@ -14,7 +14,7 @@ se distraían de sus objetivos; y quienes trabajan desde un café se encuentraba
 ya que las redes compartidas y "gratuitas" son las de mayor costo ya que le damos acceso/permiso a un proveedor que no conocemos, además de que los
 dispositivos se pueden dejar solos sin quien los vigile**.
 
-*artículos de investigación de las implicaciones las redes inalambricas gratuitas*
+*__artículos de investigación de las implicaciones las redes inalambricas gratuitas__*
 
 [Link 1](https://blog.silver-peak.com/the-truths-and-costs-behind-free-public-wifi)
 [Link 2](https://www.cio.com/article/3101859/wi-fi/the-dangerous-cost-of-free-wi-fi.html)
@@ -25,7 +25,7 @@ dispositivos se pueden dejar solos sin quien los vigile**.
 Es por eso que deciden mudarse de espacios a un lugar innovador, donde puedan hacer networking y su información sea menos vulnerable.
 
 ### Problemática
-Dicho lo anterior hemos visto cómo los espacios de co-working han ayudado a emprendededores a crecer de manera exponencial, pero, aquí es donde surgen
+Dicho lo anterior, hemos visto cómo los espacios de co-working han ayudado a emprendededores a crecer de manera exponencial, pero, aquí es donde surgen
 la preguntas:
 ¿Cómo es que existen espacios que se dedican a dar los recursos para el crecimiento de nuevas empresas las cuales en su mayoría son innovadoras, disruptivas y digitales
 siguen manteniendo sus registros de visitantes/empleados en papel?
@@ -47,7 +47,7 @@ En la calle Amsterdam 255 de la Colonia Condesa en la delegación Cuauthémoc es
 de platicar con una de las chicas que tienen oficina dentro del co-work, durante la entrevista nos platico el proceso sobre como acceden los
 visitantes al edificio.
 
-*transcripción entrevista con Indira(tiene oficina en a.255)*
+*__transcripción entrevista con Indira(tiene oficina en a.255)__*
 
 Entrevista Indira Gutiérrez, colaboradora de EasyBroker, startup cuyas oficinas se encuentran en Ámsterdam,255, colonia Condesa, Ciudad de México. Realizada el lunes 6 de agosto del 2018.
 
@@ -190,7 +190,7 @@ iba a proporcionar por eso no se contó con un script de preguntas.**
 
 ![A255](https://imgur.com/DJ37qKa)
 
-*transcripción entrevista con Fabiola Pineda(administradora de a.255)*
+*__transcripción entrevista con Fabiola Pineda(administradora de a.255)__*
 
 Sandra Salinas, Entrevistadora: Te vamos a platicar un poquito lo que estamos haciendo: Vamos a desarrollar una aplicación sobre registros para que sea más fácil poder llevar el registro de los visitantes. Entonces lo que nosotras queremos es que tú ahorita nos platiques un poquito la experiencia de la plataforma que utilizas para registrar, entonces te vamos a hacer un par de preguntas, pero primero quiero que me cuentes ¿cómo es el proceso del registro de los visitantes desde tu punto de vista?
 
@@ -364,18 +364,69 @@ Crear una aplicación web que facilite el registro de quienes visitan Terminal 1
 así como la visualización de los visitantes por parte del administrador.
 
 ### Perfil de Usuario
+*__Martin Martinez__*
+>EDAD: 27 Años
 
-#### Sketch 1
+>Puesto: Diseñador Gráfico
 
-#### Prueba Sketch 1
+>Intereses: Animación, Videojuegos, Películas de Terror
 
-#### Sketch 2
+>"When something is important enough, you do it even if the odds are not in your favor. -Elon Musk"
 
-#### Prueba Sketch 2
+*__Judith Castro__*
+>EDAD: 31 Años
 
-### Pruebas de Usuarios
+>Puesto: Fotografa
 
-#### Validacion
+>Intereses: Coleccionar Viniles, Botánica, Cerveza Artesanal
+
+>"The future for me is already a thing of the past –
+You were my first love and you will be my last. -Bob Dylan"
+
+*__José Hernández__*
+>EDAD: 38 Años
+
+>Puesto: CEO Startup
+
+>Intereses: Salir a correr, Viajar, Jugar con su perro
+
+>“Man suffers only because he takes seriously what the gods made for fun. -Alan W. Watts”
+
+*__Daniel Monroy__*
+>EDAD: 22 Años
+
+>Puesto: Estudiante/Practicante en Desarrollo de Software
+
+>Intereses: Moda, Hornear, Arts & Crafts
+
+>“The most courageous act is still to think for yourself. Aloud. -Coco Chanel”
+
+### Sketch 1
+![SK1]('https://imgur.com/FpEzNOr')
+![SK1](https://imgur.com/dPVQbLQ)
+![SK1](https://imgur.com/vKzSVg7)
+![SK1](https://imgur.com/2HPXCxm)
+
+### Sketch 2
+![SK2](https://imgur.com/Wy6uIfw)
+![SK2](https://imgur.com/akept2k)
+![SK2](https://imgur.com/oSZ88Qj)
+![SK2](https://imgur.com/L85eQPp)
+
+## Benchmark
 
 ## Prototipo:
 https://marvelapp.com/e74ba64/screen/46624852
+
+### Pruebas de Usuarios con Prototipo:
+![PROTOTEST]('https://imgur.com/bKEI6hG')
+![PROTOTEST]('https://imgur.com/D5TbXHN')
+![PROTOTEST]('https://imgur.com/kiNmPTv')
+![PROTOTEST]('https://imgur.com/aDY6MrW')
+![PROTOTEST]('https://imgur.com/MRLo4oJ')
+![PROTOTEST]('https://imgur.com/5e54knH')
+![PROTOTEST]('https://imgur.com/PBmzm4s')
+![PROTOTEST]('https://imgur.com/ebxJFvc')
+
+##### ANEXOS
+https://drive.google.com/open?id=19UUlPAgf1NYJEm-xs6-WoQH78Gjegt21
