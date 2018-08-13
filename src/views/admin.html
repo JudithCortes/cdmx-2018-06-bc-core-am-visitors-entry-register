@@ -14,9 +14,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
     <!--Materialize icons-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="../style/main.css" rel="stylesheet">
+
     <!--Fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
     <!--Css Style-->
     <link href="../style/main.css" rel="stylesheet">
     <title id="welcome-admin">Bienvenidx </title>
@@ -24,41 +24,40 @@
 
 <body class="container">
 
-
-<!--INICIA CONTENIDO-->
-<!--TABLA-->
-    <section id='log-in'>
-        <h2>Login</h2>
+    <!--INICIA CONTENIDO-->
+    <!--TABLA-->
+    <section class="row col s10 m10 l10 xl10 offset-s1" id="log-in">
+        <h3 id="title">Iniciar Sesión</h3>
         <input type="email" id="nombre-admin" value="@terminal1.mx">
         <input type="password" placeholder="password" id="contraseña">
+        <div class="btn-pad">
+            <button id="entrar" class="btn-color btn-large">Entrar</button>
+        </div>
     </section>
-
     <!--Incluír tabla-->
     <div id="login-section">
-        <section class="tabla"> Tabla</section>
+        <section class="tabla">
+            <!--Acceso a los registros-->
+            <table class="left-align">
+                <thead class="btn-color">
+                    <tr>
+                        <th scope="col">Nombre</th>
+                        <th scope="col">Email</th>
+                        <th scope="col">Empresa / Anfitrión </th>
+                        <th scope="col">Motivo </th>
+                        <th scope="col">Hora</th>
+                    </tr>
+                </thead>
+                <tbody id="table">
+                </tbody>
+            </table>
+            <section id="sendRegister"></section>
+        </section>
+        <div class="btn-pad">
+            <button id="salir" class="btn-color btn-large">Cerrar sesión</button>
+        </div>
     </div>
-
-    <!--Acceso a los registros-->
-    <button id="sendRegister" class="waves-effect btn-color btn-large"></button>
-    <P>REGISTROS</P>
- <table>
-  <thead>
-    <tr>
-      <th scope="col">nombre</th>
-      <th scope="col">Email</th>
-      <th scope="col">Empresa que visita</th>
-      <th scope="col">Motivo de su visita</th>
-      <th scope="col">Hora</th>
-      <th scope="col"></th>
-    </tr>
-  </thead>
-  <tbody id ="table">
-  </tbody>
-  </table>
-
-  <button <button id="sendRegister" class="waves-effect btn-light"></button></button>
-  <button <button id="salir" class="waves-effect btn-light">Cerrar sesiòn</button></button>
-  
+    </section>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -75,7 +74,7 @@
     </script>
     <!--Script JS Link-->
     <script src="../js/registro.js"></script>
-    <script src="../js/adm-login.js>"></script>
+    <script src="../js/admlog.js"></script>
 </body>
 
 </html>

@@ -21,11 +21,25 @@
 
 .btn-color {
   background-color: #27318f;
+  color: white;
 }
 
 h1 {
   font-family: 'roboto', bold;
   font-size: 500%;
 }
-.tabla {
+
+#log-in {
+  text-align: center;
+  font-family: 'roboto', sans-serif;
+}
+#title {
+  font-family: 'roboto', bold;
+  text-align: center;
+  font-weight: 900;
+  font-size: 500%;
+  color: #47525e;
+}
+.btn-pad {
+  padding: 20%;
 }

@@ -2,16 +2,17 @@ const admin = document.getElementById('nombre-admin');
 const password = document.getElementById('password');
 const adminView = document.getElementById('login-section');
 const logIn = document.getElementById('log-in');
-const logButton = document.getElementById('btn-log');
-const welcomeAdmin = documen.getElementById('welcome-admin');
-
-loginView.style.display = 'none';
-logButton.addEventListener('click', login);
+const entrar = document.getElementById('entrar');
+const welcomeAdmin = document.getElementById('welcome-admin');
+adminView.style.display = 'none';
+entrar.addEventListener('click', login);
 
 //Login cerrado para perfiles muy específicos
 
 const login = () => {
-  if (admin.value === 'administrador' && password.value === '12345') {
+  alert('holi');
+  if (admin.value === 'adm@terminal1.com' && password.value === '12345') {
+    alert('hola');
     adminView.style.display = 'block';
     logIn.style.display = 'none';
     welcomeAdmin.innerHTML = admin + '!';
