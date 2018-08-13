@@ -3,9 +3,33 @@
 ### Preambulo
 
 Actualmente grandes empresas están pasando por una transición dígital, cambiando sus procesos de servicio, metodologias de trabajo; un ejemplo
-de estas empresas son financieras, inmobiliarias y de co-work.
+de este cambio son las empresas son financieras, inmobiliarias y de co-work.
 
 #### Empresas de Co-Work
+Las empresas de Co-Work han cambiado la manera en la que trabajamos, abriendo las puertas a emprendedores que quieren hacer crecer su negocio
+gastando la menor cantidad de recursos financieros.
+
+Antes de la llegada de este tipo de espacios veíamos a todos estos emprendedores trabajar desde casa o cafés, los cuales, trabajando desde casa
+se distraían de sus objetivos; y quienes trabajan desde un café se encuentraban más vulnerables en temas de seguridad física y sobre todo digital,
+ya que las redes compartidas y "gratuitas" son las de mayor costo ya que le damos acceso/permiso a un proveedor que no conocemos.
+
+Es por eso que deciden mudarse de espacios a un lugar innovador, donde puedan hacer networking y su seguridad no se vea afectada.
+
+### Problemática
+Dicho lo anterior hemos visto cómo los espacios de co-working han ayudado a emprendededores a crecer de manera exponencial, pero, aquí es donde surge
+la preguntas:
+¿Cómo un espacio que se dedica a dar los recursos para el crecimiento de nuevas empresas las cuales en su mayoría son innovadoras, disruptivas y digitales
+sigue manteniendo sus registros de visitantes/empleados en papel?
+¿Qué tan segura es esta información?
+¿Qué pasa con esta información?
+¿Quién o quienes tienen acceso a esta información?
+¿Todos los co-workings usan papel para sus registros?
+¿Cuántos llevan sus registros de manera digital?
+¿Cuáles son las implicaciones de usar papel?
+
+A raíz de estas preguntas surge la hipótesis "los co-works necesitan fluidez en sus procesos y formar parte de un cambio digital".
+Es por eso que se realizó una investigación de campo en la que se busca validar la hipotesis o refutarla y conocer quien es realmente nuestro usuario,
+sus inquietudes y como nosotros podemos ofrecerle una solución a los problemas detectados en sus procesos.
 
 ### Investigacion de campo:
 
@@ -41,12 +65,16 @@ Juntan la informacion de la libreta con la informacion de las hojas?
 
 La respuesta fue que se deshacen de esta informacion cada mes y que no, no juntan la informacion de ninguna forma.
 
-
-### Problemática
+### Perfil de Usuario
 
 ### Historias de Usuario
 
-### Solucion del problema
+"Yo Miriam como administradora de los registros me interesa saber quienes ingresan al edficio, a que hora "
+""
+""
+""
+
+### Objetivos
 #### Sketch 1
 
 #### Prueba Sketch 1
