@@ -1,39 +1,68 @@
-html{
-	    height: 1024px;
-    width: 768px;
+html {
+  height: 1024px;
+  width: 768px;
 }
-body{
-	height: 1024px;
-    width: 768px;
+body {
+  height: 1024px;
+  width: 768px;
 }
-
-.container{
-	height: 700px;
-	margin-top: 100px;
-
+.container {
+  height: 700px;
+  margin-top: 100px;
 }
-h1{
-	font-size: 905%;
-	margin-top: 92px;
+h1 {
+  font-size: 905%;
+  margin-top: 92px;
 }
-
-.btn-large{
-    background-color: #493db9;
-    height: 100px;
-    width: 590px;
-    font-size: 47px;
-    margin-top: 110px;
+.btn-large {
+  background-color: #493db9;
+  height: 100px;
+  width: 590px;
+  font-size: 47px;
+  margin-top: 110px;
+  border-radius: 25px;
 }
-
-.row{
-	text-align: center;
-	margin-bottom: 100px;
+.row {
+  text-align: center;
+  margin-bottom: 100px;
 }
-
-footer{
-	text-align: center;
-	margin-top: 16%;
+footer {
+  text-align: center;
+  margin-top: 16%;
 }
-.bloque1{
-	height: 200px;
+.bloque1 {
+  height: 200px;
+}
+.bloque2 {
+  height: 45px;
+}
+#divbtn {
+  text-align: center;
+}
+.registro {
+  margin-top: 135px;
+}
+.formulario {
+  text-align: left;
+}
+#nombreVisitante {
+  font-size: 30px;
+}
+#emailVisitante {
+  font-size: 30px;
+}
+.form {
+  font-size: 25px;
+}
+.sel {
+  font-size: 15px;
+}
+#anfitrion {
+  display: block;
+}
+.boton1 {
+  border-radius: 25px;
+  height: 80px;
+  width: 385px;
+  font-size: 35px;
 }
