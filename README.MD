@@ -372,22 +372,22 @@ Intereses: Animación, Videojuegos, Películas de Terror
 
 *__Judith Castro__*
 >EDAD: 31 Años
-Puesto: Fotografa
-Intereses: Coleccionar Viniles, Botánica, Cerveza Artesanal
-"The future for me is already a thing of the past –
+>Puesto: Fotografa
+>Intereses: Coleccionar Viniles, Botánica, Cerveza Artesanal
+>"The future for me is already a thing of the past –
 You were my first love and you will be my last. -Bob Dylan"
 
 *__José Hernández__*
 >EDAD: 38 Años
-Puesto: CEO
-Intereses: Salir a correr, Viajar, Jugar con su perro
-“Man suffers only because he takes seriously what the gods made for fun. -Alan W. Watts”
+>Puesto: CEO Startup
+>Intereses: Salir a correr, Viajar, Jugar con su perro
+>“Man suffers only because he takes seriously what the gods made for fun. -Alan W. Watts”
 
 *__Daniel Monroy__*
 >EDAD: 22 Años
-Puesto: Estudiante/Practicante en Desarrollo de Software
-Intereses: Moda, Hornear, Arts & Crafts
-“The most courageous act is still to think for yourself. Aloud. -Coco Chanel”
+>Puesto: Estudiante/Practicante en Desarrollo de Software
+>Intereses: Moda, Hornear, Arts & Crafts
+>“The most courageous act is still to think for yourself. Aloud. -Coco Chanel”
 
 ### Sketch 1
 ![SK1]('https://imgur.com/FpEzNOr')
