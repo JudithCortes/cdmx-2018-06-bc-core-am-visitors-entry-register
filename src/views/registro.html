@@ -1,75 +1,88 @@
 <!doctype html>
-<html lang="en">
+<html lang='en'>
 
 <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
 
-    <!-- firestore-->
-    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase-firestore.js"></script>
+     <!--firebase-->
+    <script src='https://www.gstatic.com/firebasejs/4.12.1/firebase.js'></script>
+    <script src='https://www.gstatic.com/firebasejs/4.12.1/firebase-firestore.js'></script>
 
     <!-- Materialize CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css'>
     <!--Materialize icons-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/icon?family=Material+Icons' rel='stylesheet'>
     <!--Fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet'>
     <!--Css Style-->
-    <link href="../style/main.css" rel="stylesheet">
+    <link href='../style/main.css' rel='stylesheet'>
     <title>Registro</title>
 </head>
 
-<body class="container">
-    <div class="formulario">
+<body class='container'>
+    <div class='formulario'>
         <!--formulario registro-->
-        <form id="form-formulario">
+        <form id='form-formulario'>
             <!--agrega foto del visitante-->
             <!--agrega input nombre del visitante-->
             <p> Nombre:</p>
-            <input type="text" class="form-control" id="nombreVisitante" placeholder="">
+            <input type='text' class='form-control' id='nombreVisitante' placeholder=''>
             <p> Email:</p>
-            <input type="text" class="form-control" id="emailVisitante" placeholder="">
+            <input type='text' class='form-control' id='emailVisitante' placeholder=''>
             <!--agrega selector persona a la que visita-->
             <p>Empresa que visita:</p>
-            <select id="selectorPersona" class="form-control browser-default">
-                <option value="persona1">BACKYARD</option>
-                <option value="persona1">BAF CONSULTING</option>
-                <option value="persona2">CORREDURÍA 35</option>
-                <option value="persona1">CULTURA DH</option>
-                <option value="persona1">GALLO DESIGN</option>
-                <option value="persona1">GRAHAM ABOGADOS</option>
-                <option value="persona1">MINDWAY</option>
-                <option value="persona1">IN STYLE</option>
-                <option value="persona1">LABORATORIA</option>
-                <option value="persona3">LEGION BRAND</option>
-                <option value="persona4">MANAGERS ANONIMOS</option>
-                <option value="persona1">MEDICONECTA</option>
-                <option value="persona5">MERCARTE</option>
-                <option value="persona1">MESSEBAU</option>
-                <option value="persona1">PÉREZ REYES Y ASOCIADOS</option>
-                <option value="persona1">PIXI</option>
-                <option value="persona1">RABBIT HOUSE</option>
-                <option value="persona1">SVX</option>
-                <option value="persona1">TES AMÉRICA</option>
-                <option value="persona1">TIERRA CAPITAL</option>
-                <option value="persona1">TRIPLE JUMP</option>
-                <option value="persona1">UPSOCL</option>
-                <option value="persona1">VIA DIRECT</option>
-                <option value="persona1">YOUR PAY CHOICE</option>
-                <option value="persona1">ZOOMIN TV</option>
+            <select id='selectorPersona' class='form-control browser-default'>
+                <option value='BACKYARD'>BACKYARD</option>
+                <option value='BAF_CONSULTING'>BAF CONSULTING</option>
+                <option value='CORREDURÍA_35'>CORREDURÍA 35</option>
+                <option value='CULTURA_DH'>CULTURA DH</option>
+                <option value='GALLO_DESIGN'>GALLO DESIGN</option>
+                <option value='GRAHAM_ABOGADOS'>GRAHAM ABOGADOS</option>
+                <option value='MINDWAY'>MINDWAY</option>
+                <option value='IN_STYLE'>IN STYLE</option>
+                <option value='LABORATORIA'>LABORATORIA</option>
+                <option value='LEGION_BRAND'>LEGION BRAND</option>
+                <option value='MANAGERS_ANONIMOS'>MANAGERS ANONIMOS</option>
+                <option value='MEDICONECTA'>MEDICONECTA</option>
+                <option value='MERCARTE'>MERCARTE</option>
+                <option value='MESSEBAU'>MESSEBAU</option>
+                <option value='PÉREZ_REYES_Y_ASOCIADOS'>PÉREZ REYES Y ASOCIADOS</option>
+                <option value='PIXI'>PIXI</option>
+                <option value='RABBIT HOUSE'>RABBIT HOUSE</option>
+                <option value='SVX'>SVX</option>
+                <option value='TES_AMÉRICA'>TES AMÉRICA</option>
+                <option value='TIERRA_CAPITAL'>TIERRA CAPITAL</option>
+                <option value='TRIPLE_JUMP'>TRIPLE JUMP</option>
+                <option value='UPSOCL'>UPSOCL</option>
+                <option value='VIA_DIRECT'>VIA DIRECT</option>
+                <option value='YOUR_PAY_CHOICE'>YOUR PAY CHOICE</option>
+                <option value='ZOOMIN_TV'>ZOOMIN TV</option>
             </select>
+            <!--agrega selector persona a la que visita-->
+             <p>Motivo de su visita:</p>
+         <select id='motivo' class='form-control browser-default' >
+            <option value='junta'>Junta</option>
+            <option value='entrevista'>Entrevista</option>
+            <option value='personal'>Personal</option>
+            <option value='estudiante'>Estudiante</option>
+            <option value='otro'>Otro</option>
+        </select>
+            <p>Hora</p>
+            <input type='text' name='hora' id ='hora'>
         </form>
-        <button id="sendRegister" class="btn-color btn-large">Siguiente</button>
+        <button id='sendRegister' class='btn-color btn-large'>Registrar Visita</button>
     </div>
-    <!--Materialize min js-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+
+   <!--Materialize min js-->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js'></script>
     <!--JQuery para menú desplegable-->
-    <script src="https://code.jquery.com/jquery-2.1.1.min.js"> 
+    <script src='https://code.jquery.com/jquery-2.1.1.min.js'> 
     </script>
     <!--Script JS Link-->
-    <script src="../js/registro.js"></script>
+    <script src='../js/registro.js'></script>
+    <script src = '../js/admin.js'></script>
 
 </body>
 

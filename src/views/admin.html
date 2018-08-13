@@ -2,14 +2,14 @@
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
+    <!--Required meta tags-->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- firestore-->
     <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
     <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase-firestore.js"></script>
-
+    <script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
     <!-- Materialize CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
     <!--Materialize icons-->
@@ -23,20 +23,42 @@
 </head>
 
 <body class="container">
+
+
+<!--INICIA CONTENIDO-->
+<!--TABLA-->
     <section id='log-in'>
         <h2>Login</h2>
         <input type="email" id="nombre-admin" value="@terminal1.mx">
         <input type="password" placeholder="password" id="contraseña">
     </section>
+
     <!--Incluír tabla-->
     <div id="login-section">
         <section class="tabla"> Tabla</section>
     </div>
+
     <!--Acceso a los registros-->
     <button id="sendRegister" class="waves-effect btn-color btn-large"></button>
     <P>REGISTROS</P>
-    <div id="seccionRegistros">
-    </div>
+ <table>
+  <thead>
+    <tr>
+      <th scope="col">nombre</th>
+      <th scope="col">Email</th>
+      <th scope="col">Empresa que visita</th>
+      <th scope="col">Motivo de su visita</th>
+      <th scope="col">Hora</th>
+      <th scope="col"></th>
+    </tr>
+  </thead>
+  <tbody id ="table">
+  </tbody>
+  </table>
+
+  <button <button id="sendRegister" class="waves-effect btn-light"></button></button>
+  <button <button id="salir" class="waves-effect btn-light">Cerrar sesiòn</button></button>
+  
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
