@@ -20,3 +20,8 @@ const login = () => {
 };
 
 entrar.addEventListener('click', login);
+
+salir = document.getElementById('exit');
+salir.addEventListener('click', e =>{
+	location.href = '../index.html';
+});
