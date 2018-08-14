@@ -18,6 +18,7 @@ let nombre= document.getElementById("nombreVisitante").value;
 let email= document.getElementById("emailVisitante").value;
 let empresa= document.getElementById("selectorPersona").value;
 let motivo = document.getElementById("motivo").value;
+let persona = document.getElementById("anfitrion").value;
 let hora = document.getElementById("hora").value;
 
 //agregar documentos
@@ -26,18 +27,20 @@ let hora = document.getElementById("hora").value;
     nameUser: nombre,
     emailUser: email,
     company: empresa,
+    person: persona,
     origin : motivo,
     time: hora
 })
 .then(function(docRef) {
     console.log("Document written with ID: ", docRef.id);
 
-  
+    document.getElementById("anfitrion").value = "";
     document.getElementById("nombreVisitante").value = " ";
     document.getElementById("emailVisitante").value = " ";
     document.getElementById("selectorPersona").value = " ";
     document.getElementById("motivo").value = " ";
-    document.getElementById("hora").value = " ";   
+    document.getElementById("hora").value = " ";  
+     
  location.href = '../views/camera.html';
 })
 .catch(function(error) {
@@ -59,6 +62,7 @@ db.collection("registros").onSnapshot((querySnapshot) => {
       <th scope="col">${doc.data().nameUser}</th>
       <th scope="col">${doc.data().emailUser}</th>
       <th scope="col">${doc.data().company}</th>
+      <th scope="col">${doc.data().person}</th>
       <th scope="col">${doc.data().origin}</th>
       <th scope="col">${doc.data().time}</th>
       </tr>`                     
