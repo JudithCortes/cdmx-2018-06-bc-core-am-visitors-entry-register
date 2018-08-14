@@ -23,7 +23,10 @@
   background-color: #27318f;
   color: white;
 }
-
+.btn2-color {
+  background-color: #fa8688;
+  color: white;
+}
 h1 {
   font-family: 'roboto', bold;
   font-size: 500%;
@@ -40,6 +43,16 @@ h1 {
   font-size: 500%;
   color: #47525e;
 }
+.subtitle {
+  font-family: 'roboto', bold;
+  font-weight: 900;
+  font-size: 250%;
+  color: #47525e;
+}
 .btn-pad {
   padding: 20%;
+}
+
+.pad-btn-exit {
+  margin-top: 5%;
 }
